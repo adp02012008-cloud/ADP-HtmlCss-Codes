@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Booking</title>
+    <link rel="stylesheet" href="../css/About.css" />
+    <link rel="stylesheet" href="../css/Booking.css" />
+  </head>
+  <body>
+
+    <header class="about-header full-width">
+      <div class="header-brand header-center">
+        <img
+          src="../IMAGES/home/bg image/LOGO.png"
+          alt="Prime Path Travel Logo"
+          class="logo"
+        />
+        <span class="site-title">Prime Path Travel</span>
+      </div>
+      <nav class="main-nav nav-below">
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Booking.html">Booking</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="Language.html">Language</a></li>
+          <li><a href="Login.html">Login</a></li>
+          <li><a href="Places.html">Places</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="about-content full-width">
+      <!-- Professional Booking Section Start -->
+      <div class="booking-section">
+        <h2>Book Your Trip</h2>
+        <form class="booking-form">
+          <div class="form-row">
+            
+          <div class="form-row">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-row">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required />
+          </div>
+          <div class="form-row">
+            <label for="destination">Destination:</label>
+            <select id="destination" name="destination" required>
+              <option value="">Select Destination</option>
+              <option value="Andaman">Andaman & Nicobar</option>
+              <option value="Gokarna">Gokarna Beach</option>
+              <option value="Ladakh">Ladakh</option>
+              <option value="Ooty">Ooty</option>
+              <option value="Agra">Agra</option>
+              <option value="Jaipur">Jaipur</option>
+              <option value="Mysore">Mysore</option>
+              <option value="Pondicherry">Pondicherry</option>
+              <option value="Varkala">Varkala</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="date">Travel Date:</label>
+            <input type="date" id="date" name="date" required />
+          </div>
+          <div class="form-row">
+            <label for="requests">Special Requests:</label>
+            <textarea id="requests" name="requests" rows="2"></textarea>
+          </div>
+          <div class="form-row">
+            <label for="terms">
+              <input type="checkbox" id="terms" name="terms" required />
+              I accept the
+              <a href="#" style="color: #fff; text-decoration: underline"
+                >Terms & Conditions</a
+              >
+            </label>
+          </div>
+          <div class="form-row">
+            <label>Contact us on:</label>
+            <div class="contact-social">
+              <a
+                href="https://wa.me/919999999999"
+                
+                class="whatsapp-link"
+                >WhatsApp</a
+              >
+              <a
+                href="https://facebook.com/primepathtravel"
+                
+                class="social-link"
+                >Facebook</a
+              >
+              <a
+                href="https://instagram.com/primepathtravel"
+                
+                class="social-link"
+                >Instagram</a
+              >
+            </div>
+          </div>
+          <div class="form-row">
+            <button type="submit">Submit Booking</button>
+          </div>
+        </form>
+      </div>
+      <!-- Professional Booking Section End -->
+    </main>
+  </body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Booking</title>
+    <link rel="stylesheet" href="../css/About.css" />
+    <link rel="stylesheet" href="../css/Booking.css" />
+  </head>
+  <body>
+
+    <header class="about-header full-width">
+      <div class="header-brand header-center">
+        <img
+          src="../IMAGES/home/bg image/LOGO.png"
+          alt="Prime Path Travel Logo"
+          class="logo"
+        />
+        <span class="site-title">Prime Path Travel</span>
+      </div>
+      <nav class="main-nav nav-below">
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Booking.html">Booking</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="Language.html">Language</a></li>
+          <li><a href="Login.html">Login</a></li>
+          <li><a href="Places.html">Places</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="about-content full-width">
+      <!-- Professional Booking Section Start -->
+      <div class="booking-section">
+        <h2>Book Your Trip</h2>
+        <form class="booking-form">
+          <div class="form-row">
+            <label for="triptype">Trip Type:</label>
+            <select id="triptype" name="triptype" required>
+              <option value="">Select Type</option>
+              <option value="Family">Family</option>
+              <option value="Solo">Solo</option>
+              <option value="Group">Group</option>
+              <option value="Honeymoon">Honeymoon</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="accommodation">Preferred Accommodation:</label>
+            <select id="accommodation" name="accommodation" required>
+              <option value="">Select Accommodation</option>
+              <option value="Hotel">Hotel</option>
+              <option value="Resort">Resort</option>
+              <option value="Homestay">Homestay</option>
+              <option value="Hostel">Hostel</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="emergency">Emergency Contact Number:</label>
+            <input type="text" id="emergency" name="emergency" required />
+          </div>
+          <div class="form-row">
+            <label for="budget">Budget Range:</label>
+            <select id="budget" name="budget" required>
+              <option value="">Select Budget</option>
+              <option value="Below 20,000">Below ₹20,000</option>
+              <option value="20,000-50,000">₹20,000 - ₹50,000</option>
+              <option value="50,000-1,00,000">₹50,000 - ₹1,00,000</option>
+              <option value="Above 1,00,000">Above ₹1,00,000</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label>Your Preferences:</label>
+            <div class="addons">
+              <table style="width:100%; border:none; background:none; table-layout:fixed;">
+                <tr>
+                  <td style="padding:4px 8px; border:none; white-space:nowrap; font-size:0.95em;">
+                    <label style="white-space:nowrap;"><input type="checkbox" name="addon_sightseeing" /> Sightseeing</label>
+                  </td>
+                  <td style="padding:4px 8px; border:none; white-space:nowrap; font-size:0.95em;">
+                    <label style="white-space:nowrap;"><input type="checkbox" name="addon_meals" /> Meals Included</label>
+                  </td>
+                  <td style="padding:4px 8px; border:none; white-space:nowrap; font-size:0.95em;">
+                    <label style="white-space:nowrap;"><input type="checkbox" name="addon_insurance" />Travel Insurance</label>
+                  </td>
+                  <td style="padding:4px 8px; border:none; white-space:nowrap; font-size:0.95em;">
+                    <label style="white-space:nowrap;"><input type="checkbox" name="addon_guide" /> Local Guide</label>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="form-row specifications">
+            <label>Specifications:</label>
+            <table style="width:auto; border:none; background:none; margin-top:6px;">
+              <tr>
+                <td style="padding:4px 10px; border:none; text-align:left; min-width:120px;">
+                  <label for="male" style="margin-bottom:0;">No. of Male:</label>
+                </td>
+                <td style="padding:4px 10px; border:none;">
+                  <input type="number" id="male" name="male" min="0" placeholder="enter number of passengers" />
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:4px 10px; border:none; text-align:left; min-width:120px;">
+                  <label for="female" style="margin-bottom:0;">No. of Female:</label>
+                </td>
+                <td style="padding:4px 10px; border:none;">
+                  <input type="number" id="female" name="female" min="0" placeholder="enter number of passengers" />
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:4px 10px; border:none; text-align:left; min-width:120px;">
+                  <label for="children" style="margin-bottom:0;">No. of Children:</label>
+                </td>
+                <td style="padding:4px 10px; border:none;">
+                  <input type="number" id="children" name="children" min="0" placeholder="enter number of passengers" />
+                </td>
+              </tr>
+            </table>
+            <a href="http://127.0.0.1:5500/CODING/Booking2.html">TO CONTINUE TO FILL DETAILS CLICK HERE</a>
+          </div>
+        </form>
+      </div>
+      <!-- Professional Booking Section End -->
+    </main>
+  </body>
+</html>

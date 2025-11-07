@@ -1,0 +1,184 @@
+/* Centers the header content horizontally */
+.header-center {
+    justify-content: center;
+}
+/* Adds spacing below the navigation bar */
+.nav-below {
+    margin-top: 10px;
+}
+
+/* Flexbox layout for header elements */
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 1900px;
+    margin: 0 auto;
+    padding: 0 16px;
+    flex-wrap: nowrap;
+    width: 100%;
+    gap: 32px;
+}
+
+/* Styles for logo and site title container */
+.header-brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 0;
+    min-width: 0;
+}
+
+/* Navigation bar container styles */
+.main-nav {
+    margin-top: 0;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+}
+
+/* Styles for the site title text */
+.site-title {
+    font-size: 17.5px;
+    font-weight: 1000;
+    color: #fff;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 8px rgba(52, 85, 149, 0.1);
+    min-width: 120px;
+    padding-right: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Styles for navigation list */
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+/* Styles for navigation list items */
+.main-nav li {
+    display: inline-block;
+}
+
+/* Styles for navigation links */
+.main-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 1000;
+    font-size: 19px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Hover and focus effect for navigation links */
+.main-nav a:hover, .main-nav a:focus {
+    background: #2563eb;
+    color: #f1f5fa;
+}
+
+
+
+.booking-section {
+  max-width: 500px;
+  margin: 40px auto;
+  background: linear-gradient(135deg, #4e54c8 0%, #8f94fb 100%);
+  color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  padding: 32px 24px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.body{
+  background-color: aqua;
+}
+
+.booking-section h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.booking-form .form-row {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+.booking-form label {
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+  color: #333;
+}
+.booking-form input[type="date"] {
+  color: #333;
+}
+.booking-form textarea {
+  resize: vertical;
+}
+.booking-form button {
+  background: #fff;
+  color: #4e54c8;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background 0.2s;
+}
+.booking-form button:hover {
+  background: #e0e0e0;
+}
+.specifications {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.spec-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.addons {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 6px;
+}
+.estimated-price {
+  background: rgba(255,255,255,0.15);
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: #fff;
+}
+.contact-social {
+  display: flex;
+  gap: 16px;
+  margin-top: 6px;
+}
+.whatsapp-link {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.social-link {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.social-link:hover, .whatsapp-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Prime Path Travel</title>
+    <link rel="stylesheet" href="../css/About.css">
+    <style>
+        .form-container { max-width: 350px; margin: 40px auto; background: #e8f5e9; padding: 30px 20px; border-radius: 30px; box-shadow: 0 2px 8px rgb(0, 0, 0); }
+        h2 { text-align: center; margin-bottom: 20px; }
+        label { display: block; margin: 10px 0 5px; }
+        input { width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px; }
+        button { width: 100%; padding: 10px; background: #388e3c; color: #fff; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background: #2e7d32; }
+        .link { text-align: center; margin-top: 10px; }
+        .link a { color: #388e3c; text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <header class="about-header full-width">
+        <div class="header-brand header-center">
+            <img src="../IMAGES/home/bg image/LOGO.png" alt="Prime Path Travel Logo" class="logo">
+            <span class="site-title">Prime Path Travel</span>
+        </div>
+        <nav class="main-nav nav-below">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Booking.html">Booking</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Language.html">Language</a></li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="Places.html">Places</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="about-content full-width">
+        <div class="form-container">
+            <h2>Sign Up</h2>
+            <form action="#" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+            <br>
+            <div class="link">
+                <a href="Login.html">Already have an account? Login</a><br>
+                <br>
+                <a href="forgot.html">Forgot password?</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

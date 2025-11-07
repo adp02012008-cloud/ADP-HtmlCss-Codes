@@ -1,0 +1,73 @@
+
+body {
+
+	font-family: 'Times New Roman', Times, serif;
+}
+header {
+	background-color: #1976d2;
+	color: white;
+	padding: 10px 0;
+	text-align: center;
+	margin-bottom: 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav a {
+	color: white;
+	margin: 0 15px;
+	text-decoration: none;
+	font-weight: bold;
+}	
+nav a:hover {
+	text-decoration: underline;
+	color: #ffcc00;
+}
+/*.about-content {
+	padding: 20px;
+	background-color: #f4f4f4;
+	margin: 20px auto;
+	max-width: 800px;
+	border-fit-content: fit; ;
+}*/
+.full-width {
+	width: 100%;
+	box-sizing: border-box;
+}
+.about-content h1 {
+	color: #1976d2;
+	margin-bottom: 20px;
+	font-size: 2em;
+	text-align: center;
+}
+.about-content p {
+	line-height: 1.6;
+	margin-bottom: 15px;
+	color: #664e4e;
+	font-size: 1.1em;
+
+}
+.about-content a {
+	color: #1976d2;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.about-content a:hover {
+	text-decoration: none;
+	color: #ffcc00;
+	font-weight: bold;
+
+}
+/* Additional styles specific to Home page can be added here */
+/* For example, you might want to style a welcome message or featured destinations */
+/* Example: */
+.welcome-message {
+	font-size: 1.5em;
+	margin-bottom: 20px;
+	color: #664e4e;
+	text-align: center;
+
+}
+.featured-destinations {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
