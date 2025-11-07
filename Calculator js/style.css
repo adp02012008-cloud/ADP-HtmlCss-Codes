@@ -1,0 +1,103 @@
+/* Universal selector: applies styles to all elements */
+*{
+    /* Removes default margin from all elements */
+    margin: 0;
+    /* Removes default padding from all elements */
+    padding: 0;
+    /* Ensures padding and border are included in width/height */
+    box-sizing: border-box;
+    /* Sets a light blue background for all elements */
+    background-color: aliceblue;
+    /* Sets the font for all text */
+    font-family: 'Times New Roman', Times, serif;
+    /* Removes outline on focus for all elements */
+    outline: none;
+}
+
+/* Centers the calculator vertically and horizontally */
+.container{
+    /* Full viewport height */
+    height: 100vh;
+    /* Uses flexbox for layout */
+    display: flex;
+    /* Centers horizontally */
+    justify-content: center;
+    /* Centers vertically */
+    align-items: center;
+}
+
+/* Styles the calculator box */
+.calculator{
+    /* Calculator background color */
+    background-color: antiquewhite;
+    /* Inner spacing */
+    padding: 20px;
+    /* Rounded corners */
+    border-radius: 30px;
+    /* Inner and outer shadow for depth */
+    box-shadow: inset 5px 5px 12px grey, 5px 5px 12px rgba(0,0,0,0.16);
+    /* Uses grid layout for buttons */
+    display: grid;
+    /* 4 columns, each 68px wide */
+    grid-template-columns: repeat(4, 68px);
+}
+
+/* Styles the calculator display input */
+input{
+    /* Spans all 4 grid columns */
+    grid-column: span 4;
+    /* Height of input box */
+    height: 70px;
+    /* Full width */
+    width: 100%;
+    /* Input background color */
+    background-color: aliceblue;
+    /* Shadow effect for input */
+    box-shadow: inset -5px -5px 12px grey, 5px 5px 12px rgba(0,0,0,0.16);
+    /* No border */
+    border: none;
+    /* Rounded corners */
+    border-radius: 30px;
+    /* Text color */
+    color: rgb(70,70,70);
+    /* Large font size */
+    font-size: 30px;
+    /* Aligns text to the right */
+    text-align: end;
+    /* Top, right/left, bottom margin */
+    margin: 40px auto 30px auto;
+    /* Inner spacing */
+    padding: 20px;
+}
+
+/* Styles the calculator buttons */
+button{
+    /* Button height */
+    height: 48px;
+    /* Button width */
+    width: 48px;
+    /* Button background color */
+    background-color: gainsboro;
+    /* Shadow effect for buttons */
+    box-shadow: -5px -5px 12px gray, 5px 5px 12px rgba(0,0,0,0.16);
+    /* No border */
+    border: none;
+    /* Circular buttons */
+    border-radius: 50%;
+    /* Space around buttons */
+    margin: 8px;
+    /* Button text size */
+    font-size: 16px;
+}
+
+/* Styles the equal button to make it larger and more rounded */
+.equal{
+    /* Wider button for equals */
+    width: 115px;
+    /* More rounded corners */
+    border-radius: 40px;
+    /* Same background as other buttons */
+    background-color: gainsboro;
+    /* Shadow effect for equal button */
+    box-shadow: -5px -5px 12px gray, 5px 5px 12px rgba(0,0,0,0.16);
+}
